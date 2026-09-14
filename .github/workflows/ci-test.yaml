@@ -14,7 +14,7 @@ jobs:
           python-version: "3.13"
       - run: pip install -r requirements.txt
       - run: pytest
-  buiild:
+  build:
     needs: [run-test-code]
      runs-on: ubuntu-latest
     steps:
